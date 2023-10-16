@@ -1,0 +1,14 @@
+With *ngFor, the <div> repeats for each product in the list.
+
+Structural directives shape or reshape the DOM's structure, by adding, removing, and manipulating elements.
+ For more information about structural directives, see Structural directives.
+ Currently, the product list displays the name and description of each product. 
+ The ProductListComponent also defines a products property that contains imported data
+  for each product from the products array in products.ts.
+The next step is to create a new alert feature that will use product data from the 
+ProductListComponent. The alert should check the product's price. If it is found to 
+be greater than $700, a Notify Me button should be displayed. When a user clicks on the button,
+ they should be able to sign up for notifications that will inform them when the product goes on sale.
+
+This section walks you through creating a child component, ProductAlertsComponent, 
+that can receive data from its parent component, ProductListComponent.
